@@ -1,0 +1,23 @@
+html, body {
+  margin-left: 15%;
+  padding: 0;
+}
+canvas {
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
+input{
+  width : 11.25%;
+  height: 30%;
+  border-radius: 8px;
+  border: 4px solid #53c57f8e;
+  padding: 5px;
+  transition: 3s;
+}
+button{
+  border-radius: 8px;
+}
+h1{
+  margin-left: 10%;
+}

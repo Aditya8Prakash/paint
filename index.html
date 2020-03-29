@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multi-Player painting !</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCFEjJXOL9JPnrVojQSNCko1UopDtUopIg",
+    authDomain: "car-racing-game-246ac.firebaseapp.com",
+    databaseURL: "https://car-racing-game-246ac.firebaseio.com",
+    projectId: "car-racing-game-246ac",
+    storageBucket: "car-racing-game-246ac.appspot.com",
+    messagingSenderId: "219506245213",
+    appId: "1:219506245213:web:5ea19da404fd5a84f857b4"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body background="cool-background.png">
+    <p>
+      <font face="Arial"><h1>Multi-Player painting !</h1></font>
+      <font face="Arial" size="4">
+    Instructions ><br><br>
+      i   >  Use ASDW to move Brush <br><br>
+      ii  >  Press F<sub>5</sub> to Refresh <br><br>
+      iii >  Do not use RGB Input as it do not work ; )<br><br>
+    <input id="text1" placeholder="R value" >
+    <input id="text2" placeholder="G value" >
+    <input id="text3" placeholder="B value" >
+    <button id="btn1">Use the color Code</button>
+    <script src="sketch.js"></script><br>
+  </font>
+</p>
+  </body>
+</html>

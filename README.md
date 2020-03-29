@@ -1,1 +1,2 @@
-# paint
+# synchronousBallMovement
+Ball moving synchronously
